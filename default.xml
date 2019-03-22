@@ -31,7 +31,7 @@
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk" remote="aosp" />
   <project path="external/annotation-tools" name="platform/external/annotation-tools" groups="pdk" remote="aosp" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk" remote="aosp" />
-  <project path="external/ant-wireless/antradio-library" name="external/ant-wireless/antradio-library" remote="cerberus" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="cerberus" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk" remote="aosp" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk" remote="aosp" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk" remote="aosp" />
