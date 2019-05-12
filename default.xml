@@ -3,6 +3,10 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-9.0.0_r37" />
+
+<remote name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-16.0" />
   
   <remote name="cerberus"
            fetch="https://github.com/CerberusOS"
@@ -596,8 +600,16 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
+
+  <!-- Custom repo -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cerberus" />
+
   <!-- CERBERUS manifest -->
   <include name="cerberus_default.xml" />
+  
   <!-- CAF manifest -->
   <include name="caf_default.xml" /> 
 </manifest>
