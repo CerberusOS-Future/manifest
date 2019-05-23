@@ -607,6 +607,9 @@
   <!-- Custom repo -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cerberus" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cerberus" />
+  
+  <!--OTA-->
+  <project path="packages/apps/CerberusOTA" name="packages_apps_CerberusOTA" remote="cerberus" />
 
   <!-- CERBERUS manifest -->
   <include name="cerberus_default.xml" />
