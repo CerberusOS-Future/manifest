@@ -2,7 +2,7 @@
 
 CerberusOS
 ========
-[![Download Atom-OS Project](https://img.shields.io/sourceforge/dt/CerberusOS.svg)](https://sourceforge.net/projects/cerberusos/files/latest/download)
+[![Download CerberusOS](https://img.shields.io/sourceforge/dt/CerberusOS.svg)](https://sourceforge.net/projects/cerberusos/files/latest/download)
 
 ## Downloading Source
 To initialize your local repository, use this command:
